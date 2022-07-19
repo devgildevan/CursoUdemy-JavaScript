@@ -8,4 +8,18 @@ if(nome != nome && nome == "gil"){
 
 }else{
     console.log("Nenhuma das opções");
+} 
+
+
+if (  1 >= 2){
+    document.write("Não é maior")
+}else  if(1 ==1){
+    document.write("Sim é identico!")
+}
+
+
+if (5 < 4){
+    console.log("Não é maior")
+}else  if(5 == 5){
+    console.log("Sim é identico!")
 }
