@@ -10,7 +10,7 @@ function multiplicar(x,y){
         
         console.log(`O valor da variavel dentro da funcão é ${a}`) // valor da função 
 }
-
+  
 multiplicar(2,10) // valor da função
 
 console.log(`Variavel dentro do escopo Global ${a}`)
