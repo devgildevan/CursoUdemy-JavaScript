@@ -3,28 +3,26 @@ function imprimirNoConsole() {
 }
 imprimirNoConsole()
 
-function imprimirUmNumero(num) {
-    console.log("O número é " + num)
+function imprimirUmNumero(nome, num) {
+    console.log(`O número é: ${num}, e o nome é: ${nome}`)
 
 }
 
-imprimirUmNumero(6)
-imprimirUmNumero(5)
-imprimirUmNumero(25)
-imprimirUmNumero(30)
+imprimirUmNumero("Gildevan", 28)
 
 
-const numeroAleatorio = function(){
-    console.log(Math.random())
+
+const numeroAleatorio = function () {
+    console.log(Math.random(50))
 }
-numeroAleatorio()
-numeroAleatorio()
+ numeroAleatorio()
 
 
 
 
 
-// function escreverNoConsole() {    
+
+// function escreverNoConsole() {
 //     console.log(`Escreva no Console`);
 // }
 // escreverNoConsole();

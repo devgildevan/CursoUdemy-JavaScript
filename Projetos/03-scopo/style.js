@@ -1,12 +1,12 @@
-let numero = 20
+var numero = 20;
 
 function numero2(){
     let novonumero = 30
-    console.log(novonumero)
+    console.log(novonumero);
 }
 
-numero2()
+numero2();
 
-console.log(`O valor da variável é ${numero}`)
+console.log(`O valor da variável é ${numero}`);
 
 

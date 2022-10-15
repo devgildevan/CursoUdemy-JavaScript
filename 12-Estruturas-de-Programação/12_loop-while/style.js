@@ -5,9 +5,15 @@
 //     x = x - 1
 // }
 
-let y = 0
+let y = 10
 
-while( y <= 5){
+while( y  > 0){
     console.log(y)
-    y = y + 1
+    y--
+}
+
+var x = 0
+while(x <= 10){
+    console.log(' O valor de X é ' , x);
+    x++
 }
