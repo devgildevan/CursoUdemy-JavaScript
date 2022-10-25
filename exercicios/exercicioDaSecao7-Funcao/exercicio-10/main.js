@@ -1,4 +1,4 @@
-//Esvcreva uma função que recebe um número, e o decrementa de 1 em 1 comm loop
+//Esvcreva uma função que recebe um número, e o decrementa de 1 em 1 com loop
 
 //o resultado dos números devem ser par
 
@@ -9,4 +9,4 @@ function numeroPar (num){
         }
     }
 }
-numeroPar(20)
+numeroPar(10)
